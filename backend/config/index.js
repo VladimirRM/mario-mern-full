@@ -6,8 +6,7 @@ const __dirname = path.resolve()
 
 config({path:`${__dirname}/config/.env`})
 
-// console.log(`${__dirname}/config/.env`)
+
 
 export const MONGO_URI =process.env.MONGO_URI
 
-// console.log('MONGO_URI',MONGO_URI)
