@@ -10,3 +10,4 @@ config({path:`${__dirname}/config/.env`})
 
 export const MONGO_URI =process.env.MONGO_URI
 
+
