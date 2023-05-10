@@ -2,7 +2,8 @@ import  express  from "express";
 import  cors from "cors";
 import   "colors";
 import   morgan from 'morgan'
-console.log( "1");
+import Post from "./models/post.js";
+import './config/index.js'
 
 const app = express()
 
